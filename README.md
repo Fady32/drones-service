@@ -34,4 +34,4 @@ To stop the container
 
 open your browser on the home page of swagger :
 
-(http://127.0.0.1:8080/swagger-ui/)
+(http://127.0.0.1:8080/swagger-ui.html/)
