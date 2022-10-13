@@ -1,0 +1,16 @@
+version: '3'
+services:
+  drone-server:
+    container_name: drone_service
+    build:
+      context: ''
+      dockerfile: execute.dockerfile
+    image: drone-service:latest
+    ports:
+      - 8080:8080
+    networks:
+      - spring-cloud-network
+
+networks:
+  spring-cloud-network:
+    driver: bridge
